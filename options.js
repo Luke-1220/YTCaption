@@ -36,7 +36,7 @@ function preview(){
     if (txt) {
         $("#caption").text(txt);    
     }else{
-        $("#caption").text("This is Sample. これはサンプルです。");    
+        $("#caption").text("This is a Sample. これはサンプルです。");    
     }
 
     $("input[type='text']").each( function( index, element ){
